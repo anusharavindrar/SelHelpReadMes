@@ -1,21 +1,11 @@
 # Restore a bot
 
-## Restore a bot if accidently deleted the resource on Azure
+It is not possible to restore a bot if accidentally deleted the resources on Azure.
 
+Notes:
 
+* Botframework does not have the ability to recover a bot but it maybe theoritically possible to restore from Cosmos backups assuming the bot wasn't updated since the backup and someone hasn't claimed that botId. BotFramework doesn't directly manage the backups, so one needs to get in touch with Azure an then maually pick through the backup turning out to be an expensive operation in terms of someone's time.
 
-This has two use scenarios :
+* The usual Azure response is once you delete an Azure resource, you must contact support to see if they can get it back. Some services say if you contact them within 30 days they can restore a resource, others say once you delete it, it is gone.
 
-1. If the resource is deleted and it has been backed up.
-2. If the resource has been deleted and it hasn't been backed up.
-
-## Restore a bot if accidently deleted the files from a file system such as KUDU
-
-If a customer deletes a file from the ABS, they should be able to restore it if they have it backed up. KUDU has file upload so that should work.  
-
-If a customer needs to restore or create a new ABS and they have the code, that is just a matter of deploying the code into the resource. It would be a manual process but easy enough to figure out. 
-
-
-## Restore a bot using Powershell
-
-## Restore a bot using AZ CLI
+* If a customer deletes a file from the Azure Bot Service, they should be able to restore it if they have it backed up. KUDU has file upload so that should work. If a customer needs to restore or create a new Azure Bot Service and they have the code, that is just a matter of deploying the code into the resource. 
