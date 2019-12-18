@@ -10,6 +10,7 @@ Azure Cognitive Services are APIs, SDKs, and services available to help develope
 
 ## Additional assistance:
 
+- [Cognitive Services blog](https://azure.microsoft.com/en-us/blog/topics/cognitive-services/)
 - https://stackoverflow.com/questions/tagged/botframework
 - https://blog.botframework.com/
 - For feedback and feature requests, go to [UserVoice](https://cognitive.uservoice.com/)
