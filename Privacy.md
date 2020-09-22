@@ -17,3 +17,9 @@ Data can be tampered with during transmission. Protocols exist that provide encr
 - [Bot review guidelines](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-review-guidelines?view=azure-bot-service-4.0)
 - [Security and Privacy](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-faq-security?view=azure-bot-service-4.0)
 
+## Additional assistance:
+
+- https://stackoverflow.com/questions/tagged/botframework
+- https://blog.botframework.com/
+
+
